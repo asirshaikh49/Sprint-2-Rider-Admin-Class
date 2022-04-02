@@ -1,3 +1,6 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
 // 100 % score
 
 import java.util.*;
@@ -137,17 +140,17 @@ class Address {
    }
 }
 
-public class Source {
+class Source {
    public static void main(String[] args) {
       Scanner scanner = new Scanner(System.in);
-      int customerId = Integer.parseInt(scanner.next());
-      String customerName = scanner.next();
-      String password = scanner.next();
-      String email = scanner.next();
-      String city = scanner.next();
-      String state = scanner.next();
-      int zip = Integer.parseInt(scanner.next());
-      String country = scanner.next();
+      int customerId = 1001;
+      String customerName ="asir shaikh";
+      String password = "password1";
+      String email = "asir@gmail.com";
+      String city = "Pune";
+      String state = "MH";
+      int zip = 411021;
+      String country = "India";
       Address address = new Address(city, state, zip, country);
       Customer customer = new Customer(customerId, customerName, password, address, email);
       System.out.println(customer);
